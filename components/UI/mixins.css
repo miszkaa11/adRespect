@@ -1,0 +1,27 @@
+:root {
+    
+    /* Containers */
+    --container-width: 1440px;
+    --container-xl-width: 1040px;
+
+    /* Font Style */
+    --font-style-montserrat: 'Montserrat', sans-serif;
+
+    /* Font Size */
+    --heading-sm: 0.75rem;
+    --heading-m: 3rem;
+    --heading-xl: 3.75rem;
+    --heading-xm: 2.5rem;
+    --text-xl: 1rem;
+    --text-m: 0.875rem;
+
+    /* Font Weight */
+    --font-weight-medium: 500;
+    --font-weight-regular: 400;
+
+    /* Colors */
+    --color-beige: #DCC1AB;
+    --color-gray: #F5F0EC;
+    --color-green: #1B5B31;
+    --color-black: #000;
+}

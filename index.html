@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>adRespect RecTask</title>
+    <!-- Main Styles -->
+    <link rel="stylesheet" href="/adrespect-rec-task/components/UI/styles.css">
+    <link rel="stylesheet" href="/adrespect-rec-task/components/UI/mixins.css">
+    <link rel="stylesheet" href="/adrespect-rec-task/components/UI/rwd.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- LightBox -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.css" integrity="sha512-Woz+DqWYJ51bpVk5Fv0yES/edIMXjj3Ynda+KWTIkGoynAMHrqTcDUQltbipuiaD5ymEo9520lyoVOo9jCQOCA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!-- FontAwsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  </head>
+  <body>
+    
+<!-- Navi -->
+
+<header class="header">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white h-100">
+    <div class="container">
+      <a class="navbar-brand" href="/adrespect-rec-task/">
+        <img src="/adrespect-rec-task/assets/main_logo.png" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Oferta</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Oferta 1</a></li>
+              <li><a class="dropdown-item" href="#">Oferta 2</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Promocje</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/adrespect-rec-task/#about-us">O firmie</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/adrespect-rec-task/#realizations">Realizacje</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/adrespect-rec-task/#footer">Kontakt</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input type="search" id="search" class="form-control position-absolute" placeholder="Szukaj">
+          <button class="btn nav-btn" type="submit">
+            <a class="btn-white me-2" role="button" id="btn-search" href="#">
+              <img src="/adrespect-rec-task/assets/search_icon.png" alt="icon">
+            </a>
+          </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!-- Intro -->
+
+<section id="intro" class="intro">
+  <div class="container g-0">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="carousel-content w-50 w-100-rwd d-flex flex-column justify-content-center align-items-start color-custom-1">
+            <h2 class="carousel-heading-xl heading-xl" data-aos="zoom-in">Nowoczesna</h2>
+            <h2 class="carousel-heading-xl heading-xl" data-aos="zoom-in">aranżacja</h2>
+            <h2 class="carousel-heading-xl heading-xl" data-aos="zoom-in">Twojego ogrodu </h2>
+            <p class="carousel-paragraph text-xl" data-aos="zoom-in">Marka GiardDesign to wieloletnie doświadczenie i wysoka estetyka realizacji. Oferujemy kompleksowy zakres usług z indywidualnym podejściem do każdego projektu.</p>
+            <div class="intro-cta d-flex">
+              <button class="btn contact-btn" data-aos="zoom-in"><a href="mailto:giarddesign@kontakt.pl" class="footer-link">Skontaktuj się z nami</a></button>
+              <button class="btn realizations-btn" data-aos="zoom-in"><a href="https://miszkaa2.vot.pl/adrespect-rec-task/#realizations" class="btn-link">Zobacz nasze realizacje</a></button>
+            </div>
+          </div>
+          <div class="carousel-img w-50 w-100-rwd">
+              <img src="/adrespect-rec-task/assets/hero_block_image.png" class="w-100 h-100" alt="hero-block-image" data-aos="zoom-in">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-content w-50 w-100-rwd d-flex flex-column justify-content-center align-items-start color-custom-1">
+            <h2 class="carousel-heading-xl heading-xl" data-aos="zoom-in">Nowoczesna</h2>
+            <h2 class="carousel-heading-xl heading-xl" data-aos="zoom-in">aranżacja</h2>
+            <h2 class="carousel-heading-xl heading-xl" data-aos="zoom-in">Twojego ogrodu </h2>
+            <p class="carousel-paragraph text-xl" data-aos="zoom-in">Marka GiardDesign to wieloletnie doświadczenie i wysoka estetyka realizacji. Oferujemy kompleksowy zakres usług z indywidualnym podejściem do każdego projektu.</p>
+            <div class="intro-cta d-flex">
+              <button class="btn contact-btn" data-aos="zoom-in"><a href="mailto:giarddesign@kontakt.pl" class="footer-link">Skontaktuj się z nami</a></button>
+              <button class="btn realizations-btn" data-aos="zoom-in"><a href="https://miszkaa2.vot.pl/adrespect-rec-task/#realizations" class="btn-link">Zobacz nasze realizacje</a></button>
+            </div>
+          </div>
+          <div class="carousel-img w-50 w-100-rwd">
+              <img src="/adrespect-rec-task/assets/hero_block_image.png" class="w-100 h-100" alt="hero-block-image" data-aos="zoom-in">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-content w-50 w-100-rwd d-flex flex-column justify-content-center align-items-start color-custom-1">
+            <h2 class="carousel-heading-xl heading-xl" data-aos="zoom-in">Nowoczesna</h2>
+            <h2 class="carousel-heading-xl heading-xl" data-aos="zoom-in">aranżacja</h2>
+            <h2 class="carousel-heading-xl heading-xl" data-aos="zoom-in">Twojego ogrodu </h2>
+            <p class="carousel-paragraph text-xl" data-aos="zoom-in">Marka GiardDesign to wieloletnie doświadczenie i wysoka estetyka realizacji. Oferujemy kompleksowy zakres usług z indywidualnym podejściem do każdego projektu.</p>
+            <div class="intro-cta d-flex">
+              <button class="btn contact-btn" data-aos="zoom-in">Skontaktuj się z nami</button>
+              <button class="btn realizations-btn" data-aos="zoom-in"><a href="https://miszkaa2.vot.pl/adrespect-rec-task/#realizations" class="btn-link">Zobacz nasze realizacje</a></button>
+            </div>
+          </div>
+          <div class="carousel-img w-50 w-100-rwd">
+              <img src="/adrespect-rec-task/assets/hero_block_image.png" class="w-100 h-100" alt="hero-block-image" data-aos="zoom-in">
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"><i class="fa-sharp fa-solid fa-arrow-left fa-2xl"></i></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"><i class="fa-sharp fa-solid fa-arrow-right fa-2xl"></i></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- Offer -->
+
+<section id="offer" class="offer">
+  <div class="container g-0">
+    <div class="offer-info w-100">
+      <h5 class="offer-heading-sm heading-sm heading-sm-margin" data-aos="zoom-in">Oferta</h5>
+      <h2 class="offer-heading-m heading-m" data-aos="zoom-in">Działamy <span class="fs-italic">kompleksowo</span></h2>
+      <p class="offer-paragraph text-xl" data-aos="zoom-in">Oferujemy kompletną obsługę inwestycji terenów zielonych. Projektujemy nowoczesne ogrody przydomowe oraz rezydencjonalne. Stworzymy dla Ciebie projekt, zwizualizujemy go i wcielimy w życie, a na każdym etapie posłużymy radą i wieloletnim doświadczeniem. </p>
+    </div>
+    <div class="offer-inner d-flex flex-wrap justify-content-center">
+      <div class="offer-cards d-flex justify-content-between w-100">
+        <div class="card" data-aos="zoom-in">
+          <a href="#" class="card-body">
+            <img src="/adrespect-rec-task/assets/offer_icon_1.png" alt="icon" class="card-icon">
+            <h5 class="card-title">Projekty</h5>
+            <p class="card-text text-m">Zaprojektujemy Twój ogród w nowoczesnym stylu i z najlepszym wykorzystaniem istniejącej przestrzeni.</p>
+            <button class="btn offer-btn">Dowiedz się więcej</button>
+          </a>
+        </div>
+        <div class="card" data-aos="zoom-in">
+          <a href="#" class="card-body">
+            <img src="/adrespect-rec-task/assets/offer_icon_2.png" alt="icon" class="card-icon">
+            <h5 class="card-title">Wizualizacje</h5>
+            <p class="card-text text-m">Przedstawimy Ci projekty koncepcyjne w postaci wirtualnego spaceru animowanego w technologii 3D.</p>
+            <button class="btn offer-btn">Dowiedz się więcej</button>
+          </a>
+        </div>
+        <div class="card" data-aos="zoom-in">
+          <a href="#" class="card-body">
+            <img src="/adrespect-rec-task/assets/offer_icon_3.png" alt="icon" class="card-icon">
+            <h5 class="card-title">Realizacje</h5>
+            <p class="card-text text-m">Zrealizujemy Twoje marzenie przy użyciu najnowszych rozwiązań i zaawansowanych technologii.</p>
+            <button class="btn offer-btn">Zobacz nasze realizacje</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About Us -->
+
+<section id="about-us" class="about-us">
+  <div class="container g-0">
+    <div class="row g-0 color-custom-3">
+      <div class="col">
+        <div class="about-us-img">
+          <img src="/adrespect-rec-task/assets/about_us_image.png" alt="about-us-image" class="w-100 h-100" data-aos="zoom-in">
+        </div>
+      </div>
+      <div class="col d-flex flex-column justify-content-center align-items-start text-white">
+        <div class="about-us-content">
+          <h5 class="about-us-headging-sm heading-sm heading-sm-margin" data-aos="zoom-in">O firmie</h5>
+          <h2 class="about-us-heading-m heading-m" data-aos="zoom-in">Tworzymy</h2>
+          <h2 class="about-us-heading-m heading-m" data-aos="zoom-in"><span class="fs-italic">z pasją</span></h2>
+          <p class="about-us-paragraph text-xl" data-aos="zoom-in">Każdy projekt to nowe wyzwanie. Dlatego nasz zespół tworzą wykwalifikowani projektanci oraz architekci, których zadaniem jest rozpoznanie i realizacja potrzeb każdego Klienta. Nasza specjalizacja to przestrzenie nowoczesne, które charakteryzuje minimalizm, geometria i elegancka prostota. Tworzymy ogrody małoobsługowe, dostosowane do współczesnego trybu życia.</p>
+          <div class="about-us-cta d-flex">
+            <a href="mailto:giarddesign@kontakt.pl" class="footer-link" data-aos="zoom-in"><button class="btn about-us-btn">Poznaj nas bliżej</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Realizations -->
+
+<section id="realizations" class="realizations color-custom-1">
+  <div class="container g-0">
+    <div class="realizations-inner">
+      <h5 class="realizations-heading-sm heading-sm heading-sm-margin" data-aos="zoom-in">Realizacje</h5>
+      <h2 class="realizations-heading-m heading-m" data-aos="zoom-in">Nasze <span class="fs-italic">projekty</span></h2>
+    </div>
+  </div>
+  <div class="container g-0">
+    <div class="grid" data-aos="zoom-in">
+      <div class="grid-container bg-gradient">
+        <div class="grid-item">
+          <a href="/adrespect-rec-task/assets/realizations_image_1.png" alt="image" data-lightbox="models">
+            <img src="/adrespect-rec-task/assets/realizations_image_1.png"/ alt="gallery-image" class="grid-image">
+        </a>
+        </div>
+        <div class="grid-item">
+          <a href="/adrespect-rec-task/assets/realizations_image_6.png" data-lightbox="models">
+            <img src="/adrespect-rec-task/assets/realizations_image_6.png" alt="gallery-image" class="grid-image"/>
+        </a>
+        </div>
+        <div class="grid-item">
+          <a href="/adrespect-rec-task/assets/realizations_image_7.png" data-lightbox="models">
+            <img src="/adrespect-rec-task/assets/realizations_image_7.png" alt="gallery-image" class="grid-image"/>
+        </a>
+        </div>
+        <div class="grid-item">
+          <a href="/adrespect-rec-task/assets/realizations_image_2.png" data-lightbox="models">
+            <img src="/adrespect-rec-task/assets/realizations_image_2.png" alt="gallery-image" class="grid-image"/>
+        </a>
+        </div>
+        <div class="grid-item">
+          <a href="/adrespect-rec-task/assets/realizations_image_4.png" data-lightbox="models">
+            <img src="/adrespect-rec-task/assets/realizations_image_4.png" alt="gallery-image" class="grid-image"/>
+        </a>
+        </div>
+        <div class="grid-item">
+          <a href="/adrespect-rec-task/assets/realizations_image_8.png" data-lightbox="models">
+            <img src="/adrespect-rec-task/assets/realizations_image_8.png" alt="gallery-image" class="grid-image"/>
+        </a>
+        </div>
+        <div class="grid-item">
+          <a href="/adrespect-rec-task/assets/realizations_image_3.png" data-lightbox="models">
+            <img src="/adrespect-rec-task/assets/realizations_image_3.png" alt="gallery-image" class="grid-image"/>
+        </a>
+        </div>
+        <div class="grid-item">
+          <a href="/adrespect-rec-task/assets/realizations_image_5.png" data-lightbox="models">
+            <img src="/adrespect-rec-task/assets/realizations_image_5.png" alt="gallery-image" class="grid-image"/>
+        </a>
+        </div>
+        <div class="grid-item">
+          <a href="/adrespect-rec-task/assets/realizations_image_9.png" data-lightbox="models">
+            <img src="/adrespect-rec-task/assets/realizations_image_9.png" alt="gallery-image" class="grid-image"/>
+        </a>
+        </div>
+        <div class="grid-item">
+          <a href="/adrespect-rec-task/assets/realizations_image_6.png" data-lightbox="models">
+            <img src="/adrespect-rec-task/assets/realizations_image_6.png" alt="gallery-image" class="grid-image"/>
+        </a>
+        </div>
+        <div class="grid-item">
+          <a href="/adrespect-rec-task/assets/realizations_image_7.png" data-lightbox="models">
+            <img src="/adrespect-rec-task/assets/realizations_image_7.png" alt="gallery-image" class="grid-image"/>
+        </a>
+        </div>
+        <div class="grid-item">
+          <a href="/adrespect-rec-task/assets/realizations_image_2.png" data-lightbox="models">
+            <img src="/adrespect-rec-task/assets/realizations_image_2.png" alt="gallery-image" class="grid-image"/>
+        </a>
+        </div>
+        <div class="grid-item">
+          <a href="/adrespect-rec-task/assets/realizations_image_4.png" data-lightbox="models">
+            <img src="/adrespect-rec-task/assets/realizations_image_4.png" alt="gallery-image" class="grid-image"/>
+        </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Insta Block -->
+
+<section id="insta-block" class="insta-block">
+  <div class="container-xl g-0">
+    <div class="row color-custom-3">
+      <div class="col g-0 text-white">
+        <div class="insta-block-inner d-flex justify-content-between">
+          <div class="insta-block-text">
+            <h3 class="insta-block-heading-xm heading-xm">Zostańmy w kontakcie!</h3>
+            <h3 class="insta-block-heading-xm heading-xm">Znajdziesz nas na <span class="fs-italic">Instagramie.</span></h3>
+          </div>
+          <div class="insta-block-cta">
+            <p class="insta-block-paragraph text-xl">Śledź nasze</p>
+            <p class="insta-block-paragraph text-xl">najnowsze realizacje!</p>
+            <a href="https://www.instagram.com/adrespect/"><button class="btn insta-block-btn">Instagram</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+
+<section id="footer" class="footer color-custom-4">
+  <div class="container-xl g-0">
+    <div class="footer-inner">
+      <div class="row text-white">
+        <div class="col g-0 d-flex justify-content-between align-items-baseline" style="border-bottom: 1px solid #fff; padding: 4rem 0;">
+          <div class="footer-contact">
+            <a href="https://miszkaa2.vot.pl/adrespect-rec-task/"><img src="/adrespect-rec-task/assets/footer_logo.png" alt="logo"></a>
+          </div>
+          <div class="footer-contact">
+            <p class="footer-paragraph">Daj znać, co możemy dla Ciebie zrobić!</p>
+            <a href="mailto:giarddesign@kontakt.pl" class="footer-link"><button class="btn contact-btn">Skontaktuj się z nami</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="row text-white">
+        <div class="col g-0 d-flex justify-content-between align-items-end" style="padding: 3rem 0px;">
+          <div class="footer-contact">
+            <a href="https://miszkaa2.vot.pl/adrespect-rec-task/#footer" class="footer-link footer-link-margin">Kontakt</a>
+            <a href="https://www.instagram.com/adrespect/" class="footer-link footer-link-margin">Instagram</a>
+            <a href="https://www.facebook.com/adrespectagency/" class="footer-link footer-link-margin">Facebook</a>
+            <a href="https://pl.linkedin.com/company/adrespect" class="footer-link footer-link-margin">LinkedIn</a>
+          </div>
+            <div class="footer-contact">
+              <a href="tel:000-000-000" class="footer-link footer-link-margin"> 000-000-000</a>
+              <a href="mailto:giarddesign@kontakt.pl" class="footer-link">giarddesign@kontakt.pl</a>
+            </div>
+        </div>
+      </div>
+      <div class="row text-white">
+        <div class="col g-0 d-flex justify-content-between align-items-end" style="padding: 5rem 0px;">
+          <div class="footer-contact">
+            <p class="footer-paragraph">Prawa zastrzeżone © 2022</p>
+          </div>
+          <div class="footer-contact">
+            <p class="footer-paragraph">made by</p>
+            <a href="https://adrespect.pl/"><img src="/adrespect-rec-task/assets/footer_logo_full_light.png" alt="logo"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- LightBox -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.js" integrity="sha512-0rYcJjaqTGk43zviBim8AEjb8cjUKxwxCqo28py38JFKKBd35yPfNWmwoBLTYORC9j/COqldDc9/d1B7dhRYmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Masnory -->
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+    <!-- Main Scripts -->
+    <script src="/adrespect-rec-task/components/scripts/scripts.js"></script>
+  </body>
+</html>
